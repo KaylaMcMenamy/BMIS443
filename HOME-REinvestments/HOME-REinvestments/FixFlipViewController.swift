@@ -69,8 +69,8 @@ class FixFlipViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        
-        func calculate() {
+    }
+        func calculateButtonPressed() {
             //Maximum Purchase Price Base Calculation
             discountPurchasePrice.text = "\(Int(afterRepairValue.text!) ?? 0) * \(Int(discount.text!) ?? 0)"
             
@@ -110,25 +110,11 @@ class FixFlipViewController: UIViewController {
         
         
         
+    
+    
+    @IBAction func calculatePressed(_ sender: UIButton) {
+        calculateButtonPressed()
     }
     
-    @IBAction func calculateButtonPressed(_ sender: UIButton) {
-        calculate()
-    }
     
-    /*@IBAction func calculateNP(_ sender: UIButton) {
-     calculate()
-     }
-     */
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
 }

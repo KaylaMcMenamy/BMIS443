@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7C6F83421B8A9380054840F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6F83321B8A9380054840F /* DetailViewController.swift */; };
 		EF98D8FD21B5D813009F7C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF98D8FC21B5D813009F7C45 /* AppDelegate.swift */; };
 		EF98D8FF21B5D813009F7C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF98D8FE21B5D813009F7C45 /* ViewController.swift */; };
 		EF98D90221B5D813009F7C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF98D90021B5D813009F7C45 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7C6F83321B8A9380054840F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EF98D8F921B5D813009F7C45 /* HOME-REinvestments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HOME-REinvestments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF98D8FC21B5D813009F7C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF98D8FE21B5D813009F7C45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				EF98D8FC21B5D813009F7C45 /* AppDelegate.swift */,
 				EF98D8FE21B5D813009F7C45 /* ViewController.swift */,
+				A7C6F83321B8A9380054840F /* DetailViewController.swift */,
 				EF98D90021B5D813009F7C45 /* Main.storyboard */,
 				EF98D91021B5DBEB009F7C45 /* ToDoViewController.swift */,
 				EF98D90E21B5DB99009F7C45 /* FixFlipViewController.swift */,
@@ -144,6 +147,7 @@
 				EF98D91121B5DBEB009F7C45 /* ToDoViewController.swift in Sources */,
 				EF98D90F21B5DB99009F7C45 /* FixFlipViewController.swift in Sources */,
 				EF98D8FF21B5D813009F7C45 /* ViewController.swift in Sources */,
+				A7C6F83421B8A9380054840F /* DetailViewController.swift in Sources */,
 				EF98D8FD21B5D813009F7C45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
